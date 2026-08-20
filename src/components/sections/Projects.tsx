@@ -3,17 +3,7 @@ import { ExternalLink, Github, X } from 'lucide-react';
 import { useState } from 'react';
 
 const projects = [
-  {
-    title: 'SureEntry Pro',
-    description: 'A real-time face detection & attendance system achieving 95%+ recognition accuracy. Optimized detection pipeline and data processing, reducing latency by 35% and improving handling efficiency by 50%.',
-    impact: 'Automated logging with CSV/XML and ensured model persistence with joblib, cutting manual effort by 70%',
-    architecture: 'Built with OpenCV for face detection, Flask backend for API endpoints, and web interface for attendance management. Implements real-time video processing with optimized detection algorithms.',
-    technologies: ['Python', 'OpenCV', 'Flask', 'HTML', 'CSS', 'JavaScript', 'joblib'],
-    metrics: ['95%+ accuracy', '35% latency reduction', '70% manual effort reduction'],
-    github: 'https://github.com/sreyangshu05/SureEntry-Pro',
-    demo: 'https://sureentry.netlify.app/',
-    featured: true,
-  },
+  { title: 'SureEntry Pro', description: 'A real-time face recognition and workforce attendance platform built with Flask and OpenCV, combining biometric attendance, employee self-service, payroll, QR/RFID check-ins, reporting, and administrative workflows.', impact: 'Automated attendance recording and workforce operations through biometric and device-based check-ins, reducing manual attendance effort while centralizing employee and payroll management.', architecture: 'Designed a Flask-based backend with OpenCV Haar Cascade face detection, scikit-learn KNN recognition, distance-based unknown-person rejection, atomic JSON/JSONL/CSV persistence, and optional Socket.IO events for live attendance updates.', technologies: ['Python', 'Flask', 'OpenCV', 'scikit-learn', 'NumPy', 'joblib', 'HTML', 'CSS', 'JavaScript', 'Flask-WTF', 'Flask-SocketIO'], metrics: ['95%+ recognition accuracy', '35% latency reduction', '50% handling efficiency improvement', '70% manual effort reduction'], highlights: [ 'Employee registration and self-service attendance workspace', 'Payroll calculation with gross and net salary records', 'Signed QR and RFID device-based attendance APIs', 'CSV, XLSX, and PDF report generation', 'Duplicate attendance prevention and checkout workflows', 'Multi-frame liveness signal and unknown-person rejection' ], github: 'https://github.com/sreyangshu05/SureEntry-Pro-Updated/tree/master', demo: 'https://sureentry-pro.onrender.com/', featured: true, },
   {
     title: 'FunLearn',
     description: 'An AI-powered tutoring platform implemented with context-aware workflows and robust error handling, increasing learner engagement by 35% and reducing integration bugs by 45%.',
